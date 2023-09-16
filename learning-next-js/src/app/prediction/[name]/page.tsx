@@ -29,9 +29,7 @@ export default async function Page({ params }: Params) {
   ]);
 
   return (
-    // <main className="flex min-h-screen flex-col items-center justify-center">
-    //   {params.name}
-    // </main>
+
     <div className="flex flex-col min-h-screen items-center justify-center bg-gray-300">
       <div className="bg-slate-950 shadow-sm p-14 rounded-md">
         <div className="mb-5">Personal Info</div>
